@@ -2,7 +2,7 @@
 <project name="Ant Example" default="all" basedir=".">
     <property name="project_name" value="junitSamples" />
     <property name="src" location="src" />
-    <property name="build" location="build/test" />
+    <property name="build" location="test" />
     <property name="lib" location="lib" />
     <property name="reports" location="reports" />
 
