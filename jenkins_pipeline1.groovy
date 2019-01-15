@@ -10,7 +10,7 @@ node {
     result = e2e.result
     if (result.equals("SUCCESS")) {
         stage 'Mat_Class_deploy'
-        build 'Mat_Class_build'
+        build 'Mat_Class_pipeline_test+checkstyle_ok'
     } else {
         echo "Unexpected result on Check Mat_Class_test"
         build 'Mat_Class_pipeline_test+checkstyle_fail'
